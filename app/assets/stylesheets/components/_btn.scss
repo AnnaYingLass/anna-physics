@@ -1,29 +1,14 @@
-// .link-btn {
-//   text-align:center;
-//   background-color: pink;
-//   // border: 1px solid yellow;
-// }
-
-// .link-btn a {
-//   text-decoration: none;
-//   // border: 1px solid blue;
-// }
 
 .link-btn {
-  width: 120px;
-  font-size: 20px;
-/*  margin-left: 50px;*/
-  margin-top: 30px;
-  background-color:#fcd5ce;
-  // background-color: #FFBCBC;
-  color: white;
-  border: none;
-  border-radius: 20px;
-  padding: 10px 30px 10px 30px;
+  width: 150px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  text-align:center;
   a {
+    color: #1d3557;
     text-decoration: none;
-    color: white;
-
+    font-size: 18px;
   }
 }
 

@@ -1,4 +1,4 @@
-<h1>Hi Jasmine and friend 🌟</h1>
+<h1>Hi Jasmine, welcome to physics homepage! 🌟👏</h1>
 <div class="container">
   <div class="link-btn">
     <%= link_to "Ask a question", ask_path %>
@@ -6,44 +6,38 @@
 </div>
 
 
-<h2>Electricity & Magnetism</h2>
+<h2>Electricity & Magnetism:</em></h2>
 <div class="container">
 
   <div class="card">
-    <h3 >A Motor </h3>
+    <h3> Motor </h3>
     <p> Electrical Energy  ➡  Kinetic Energy 🚗 </p>
-    <div>
-      <p>Fundamental phenomenon:</p>
-      <div class="link-btn">
-      <%= link_to "Magnetic force on a moving charge", motor_theory_path %>
-      </div>
+    <div class="center link-btn">
+      <%= link_to "Fundamental phenomenon", motor_theory_path %>
     </div>
-    <div>
-      <p> Equation: </p>
+    <div class="center">
+      <p>Equation:</p>
       <div class="equation">F = q v x B (Lorentz force law)</div>
     </div>
     <div>
-      <p>View: </p>
       <%= image_tag 'motor.png', class:"picture" %>
     </div>
 
   </div>
 
   <div class="card">
-    <h3>A Generator</h3>
+    <h3>Generator</h3>
     <p>Kinetic Energy ➡ Electrical Energy 💡</p>
-    <div>
-      <p>Fundamental phenomenon:</p>
-      <div class="link-btn">
-      <%= link_to "Electromagnetic induction", generator_theory_path %>
-      </div>
+
+    <div class="center link-btn">
+    <%= link_to "Fundamental phenomenon", generator_theory_path %>
     </div>
-    <div>
-      <p> Equation: </p>
+
+    <div class="center">
+      <p>Equation:</p>
       <div class="equation">e.m.f. = - d&Phi; / dt (Faraday's law)</div>
     </div>
     <div>
-      <p>View: </p>
       <%= image_tag 'generator.png', class:"picture" %>
     </div>
 
