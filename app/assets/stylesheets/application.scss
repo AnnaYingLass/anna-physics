@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+@import "pages/index";
+@import "components/index";
+
+body {
+  font-family: sans-serif;
+  background-color: #d8e2dc;
+}
+
+body p {
+}
+
+.picture {
+  width: 25em;
+}
+
+.equation {
+  font-weight: 500;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+

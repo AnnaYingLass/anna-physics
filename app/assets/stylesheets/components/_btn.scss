@@ -1,0 +1,36 @@
+// .link-btn {
+//   text-align:center;
+//   background-color: pink;
+//   // border: 1px solid yellow;
+// }
+
+// .link-btn a {
+//   text-decoration: none;
+//   // border: 1px solid blue;
+// }
+
+.link-btn {
+  width: 120px;
+  font-size: 20px;
+/*  margin-left: 50px;*/
+  margin-top: 30px;
+  background-color:#fcd5ce;
+  // background-color: #FFBCBC;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  a {
+    text-decoration: none;
+    color: white;
+
+  }
+}
+
+.link-btn:hover {
+  background-image: linear-gradient(90deg, #B5EAEA 0%, #FFE194 49%, #FFBCBC 80%, #B5EAEA 100%);
+  a {
+    color: #4C4C6D;
+    font-weight: 500;
+  }
+}
