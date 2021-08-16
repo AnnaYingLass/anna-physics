@@ -1,76 +1,60 @@
 <%= link_to "⬅ home", home_path %>
 <h2>Electromagnetic Induction </h2>
-<div>
-    <%= image_tag 'induction.png', class:"picture" %>
+<div class="container">
+  <div class='info-card'>
+  <div><%= image_tag 'induction.png', class:"picture" %></div>
+  <a href="https://www.youtube.com/watch?v=nGQbA2jwkWI&list=PLyQSN7X0ro2314mKyUiOILaOC2hk6Pc3j&index=17&ab_channel=LecturesbyWalterLewin.Theywillmakeyou%E2%99%A5Physics." target="blank">👉 See MIT Demo [Start: 27.20min]</a>
+  <p>
+    phenomenon:<br>
+    Take a complete wire loop:<br>
+    <ul>
+      <li>beginning: no current</li>
+      <li>then: move it suddenly in the magnetic field (“cut across the magnetic filed lines”)</li>
+      <li>a tiny current registered on  “galvonometer” whilst you are moving</li>
+      <li>if you reverse direction of motion: current changes direction </li>
+    </ul>
+    Note: if we didn’t have a complete loop, <br>
+    there will still be an EMF induced: <br>
+    <ul>
+    <li>EMF is induced whenever there is relative motion <br></li>
+    <li>When you have a complete loop, then there will be a current</li>
+    </ul>
+    (EMF = potentail difference / voltage ) <br>
+    <div><%= image_tag 'relative_motion.png', class:"picture" %></div>
+    Note: it is the <em>realtive</em> motion that counts!
+  </p>
+  </div>
+
+
+<div class='info-card'>
+  <h3>
+  classic application: <br>
+  A.C GENERATORS
+  </h3>
+  <p>
+    kinetic -> electric current <br>
+    Question: How does it work? <br>
+    Answer: Faraday’s Law <br>
+    <div class="equation">e.m.f. = - d&Phi; / dt  <br>(i.e.EMF = change in magnetic flux/ change in time)</div>
+    Where:<br>
+    <ul>
+      <li>&Phi;= BAcos&theta;:  is a measure of how much (magnetic filed) flows perpendicularly pass the loop</li>
+      <li>hence &Phi; is changed: when you turn the loop (fixed magnetic field direction)</li>
+      <li>How do you make &Phi; change fast? : turn the coil faster</li>
+    </ul>
+    <div><%= image_tag 'generator.png', class:"picture" %></div>
+    Summary: <br>
+    To get a big EMF/Current <br>
+    <ul>
+      <li>1. Increase &Phi;: <br> -- a) stronger magnetic field <br>  -- b) increase area of the loop (either : bigger loop, or many loops )</li>
+      <li>2. change &Phi; faster: turn the coil faster</li>
+    </ul>
+    Note: the MINUS sign in Faraday’s law: <br>
+    Question: How do you determine direction of the current? <br>
+    Answer: “Len’s law”: <br>
+    current generated -> magnetic field generated ->  opposes the original motion <br>
+  </p>
+  </div>
 </div>
-
-<a href="https://www.youtube.com/watch?v=nGQbA2jwkWI&list=PLyQSN7X0ro2314mKyUiOILaOC2hk6Pc3j&index=17&ab_channel=LecturesbyWalterLewin.Theywillmakeyou%E2%99%A5Physics." target="blank">👉 See MIT Demo [Start: 27.20min]</a>
-
-<p>
-phenomenon:<br>
-
-Take a complete wire loop:<br>
-
-<ul>
-  <li>beginning: no current</li>
-  <li>then: move it suddenly in the magnetic field (“cut across the magnetic filed lines”)</li>
-  <li>a tiny current registered on  “galvonometer” whilst you are moving</li>
-  <li>if you reverse direction of motion: current changes direction </li>
-</ul>
-
-Note: if we didn’t have a complete loop, <br>
-
-there will still be an EMF induced: <br>
-<ul>
-<li>EMF is induced whenever there is relative motion <br></li>
-<li>When you have a complete loop, then there will be a current</li>
-</ul>
-(EMF = potentail difference / voltage ) <br>
-
-
-
-
-</p>
-----
-<h3>
-classic application: <br>
-A.C GENERATORS
-</h3>
-
-kinetic -> electric current <br>
-
-Question: How does it work? <br>
-
-Answer: Faraday’s Law <br>
-
-<div class="equation">e.m.f. = - d&Phi; / dt  <br>(i.e.EMF = change in magnetic flux/ change in time)</div>
-
-Where:<br>
-<ul>
-  <li>&Phi;= BAcos&theta;:  is a measure of how much (magnetic filed) flows perpendicularly pass the loop</li>
-  <li>hence &Phi; is changed: when you turn the loop (fixed magnetic field direction)</li>
-  <li>How do you make &Phi; change fast? : turn the coil faster</li>
-</ul>
-
-
-<div>
-  <%= image_tag 'generator.png', class:"picture" %>
-</div>
-
-
-Summary: <br>
-
-To get a big EMF/Current <br>
-
-<ul>
-  <li>1. Increase &Phi;: <br> -- a) stronger magnetic field <br>  -- b) increase area of the loop (either : bigger loop, or many loops )</li>
-  <li>2. change &Phi; faster: turn the coil faster</li>
-</ul>
-
-
-Note: the MINUS sign in Faraday’s law: <br>
-Question: How do you determine direction of the current? <br>
-Answer: “Len’s law”: <br>
-current generated -> magnetic field generated ->  opposes the original motion <br>
 
 

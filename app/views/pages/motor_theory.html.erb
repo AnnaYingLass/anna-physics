@@ -1,52 +1,42 @@
 <%= link_to "⬅ home", home_path %>
 <h2>Magnetic force on a current carrying wire </h2>
-<div>
-    <%= image_tag 'magnetic_force.png', class:"picture" %>
-</div>
+<div class="container">
+  <div class="info-card">
+    <div><%= image_tag 'magnetic_force.png', class:"picture" %></div>
+    <a href="https://www.youtube.com/watch?v=X4dXXnUMHbQ&ab_channel=FortheAllureofPhysics" target="blank">👉 See MIT Demo [Start: 11min]</a>
+    <p>
+      phenomenon:<br>
+      when you have charge moving in a magnetic field<br>
+      the charge experiences a ('magnetic') force:<br>
+      - direction : determined “LH RULE”:
+      <ul>
+        <li>THUMB: “T” thurst — force</li>
+        <li>Frist finger: ‘F’ — field</li>
+        <li>SeCond finger: “C” - current</li>
+      </ul>
+      - magnitude:
+      F = q vBsin&theta; <br>
+      In Summary: F = q v x B (Lorentz force law)<br>
+    </p>
+  </div>
 
-<a href="https://www.youtube.com/watch?v=X4dXXnUMHbQ&ab_channel=FortheAllureofPhysics" target="blank">👉 See MIT Demo [Start: 11min]</a>
+  <div class="info-card">
+    <h3>
+    classic application: <br>
+    MOTORS: <br>
+    </h3>
+    <p>
+      electric energy -> kinetic  energy <br>
+      set up: a current carrying wire <br>
+      <ul>
+        <li>one part of the wire: feels a force up</li>
+        <li>the other part: feels a force down:</li>
+        <li>once it starts to TURN: actually keeps on turning in the same direction thanks to SPLIT RINGS</li>
+      </ul>
+      </p>
+    <div><%= image_tag 'motor.png', class:"picture" %></div>
+  </div>
 
-<p>
-phenomenon:<br>
-
-when you have charge moving in a magnetic field<br>
-
-the charge experiences a ('magnetic') force:<br>
-
-- direction : determined “LH RULE”:
-<ul>
-  <li>THUMB: “T” thurst — force</li>
-  <li>Frist finger: ‘F’ — field</li>
-  <li>SeCond finger: “C” - current</li>
-</ul>
-
-- magnitude:
-F = q vBsin&theta; <br>
-
-In Summary: F = q v x B (Lorentz force law)<br>
-
-</p>
-----
-
-<h3>
-classic application: <br>
-MOTORS: <br>
-</h3>
-
-<p>
-electric energy -> kinetic  energy <br>
-
-set up: a current carrying wire <br>
-
-<ul>
-  <li>one part of the wire: feels a force up</li>
-  <li>the other part: feels a force down:</li>
-  <li>once it starts to TURN: actually keeps on turning the in the same direction thanks to SPLIT RINGS</li>
-</ul>
-</p>
-
-<div>
-      <%= image_tag 'motor.png', class:"picture" %>
 </div>
 
 
